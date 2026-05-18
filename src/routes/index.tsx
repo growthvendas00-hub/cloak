@@ -8,16 +8,6 @@ import { Flame, ChefHat, Clock } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   component: Index,
-  head: () => ({
-    meta: [
-      { title: "Burgz — O Hambúrguer Perfeitamente Perfeito" },
-      { name: "description", content: "O guia definitivo do Burgz: blend ideal, técnica da chapa e suculência máxima para o hambúrguer perfeito em casa." },
-      { property: "og:title", content: "Burgz — O Hambúrguer Perfeitamente Perfeito" },
-      { property: "og:description", content: "Descubra a receita secreta do Burgz e faça em casa o hambúrguer perfeitamente perfeito." },
-      { property: "og:image", content: heroBurger },
-      { property: "og:type", content: "article" },
-    ],
-  }),
 });
 
 const ingredients = [
