@@ -90,7 +90,7 @@ function Index() {
         <div className="max-w-6xl mx-auto px-6 py-20">
           <div className="max-w-3xl mb-12">
             <p className="text-base md:text-lg leading-relaxed text-muted-foreground">
-              Pela primeira vez, a <strong className="text-foreground">JOVEM LANCHONETE DELIVERY</strong> revela
+              Pela primeira vez, a <strong className="text-foreground">Cabeca Lanches & Delivery Fraga Maia</strong> revela
               a receita que transformou o Burgz numa referência artesanal. Cada etapa foi refinada ao longo de anos
               de chapa quente, blends testados e atenção obsessiva ao detalhe. Este é o passo a passo completo —
               sem atalhos, sem segredos guardados.
@@ -177,11 +177,11 @@ function Index() {
           </DialogHeader>
           <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
             <p>Bem-vindo ao Burgz Blog. Ao acessar este site, você concorda com os termos descritos a seguir. Este é um blog informativo dedicado à gastronomia, com foco em receitas, técnicas culinárias e cultura do hambúrguer artesanal.</p>
-            <p><strong className="text-foreground">1. Natureza do conteúdo.</strong> Todo o material publicado tem caráter exclusivamente informativo e educativo. As receitas e técnicas refletem a experiência da JOVEM LANCHONETE DELIVERY e não substituem orientação profissional de nutricionistas ou chefs.</p>
+            <p><strong className="text-foreground">1. Natureza do conteúdo.</strong> Todo o material publicado tem caráter exclusivamente informativo e educativo. As receitas e técnicas refletem a experiência da Cabeca Lanches & Delivery Fraga Maia e não substituem orientação profissional de nutricionistas ou chefs.</p>
             <p><strong className="text-foreground">2. Propriedade intelectual.</strong> Textos, imagens e marca "Burgz" são protegidos por direitos autorais. Reprodução total ou parcial requer autorização prévia.</p>
             <p><strong className="text-foreground">3. Responsabilidade.</strong> O usuário é responsável pelo correto manuseio de ingredientes, equipamentos e procedimentos culinários descritos no site.</p>
             <p><strong className="text-foreground">4. Alterações.</strong> Estes termos podem ser atualizados a qualquer momento; recomendamos consulta periódica.</p>
-            <p>Em caso de dúvidas, entre em contato com a JOVEM LANCHONETE DELIVERY pelo canal oficial do blog.</p>
+            <p>Em caso de dúvidas, entre em contato com a Cabeca Lanches & Delivery Fraga Maia pelo canal oficial do blog.</p>
           </div>
           <DialogFooter>
             <Button onClick={() => setOpenTerms(false)}>Fechar</Button>
