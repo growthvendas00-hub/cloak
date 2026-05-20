@@ -90,7 +90,7 @@ function Index() {
         <div className="max-w-6xl mx-auto px-6 py-20">
           <div className="max-w-3xl mb-12">
             <p className="text-base md:text-lg leading-relaxed text-muted-foreground">
-              Pela primeira vez, a <strong className="text-foreground">Ceara Lanches e Delivery</strong> revela
+              Pela primeira vez, a <strong className="text-foreground">Espaco Palco Meu</strong> revela
               a receita que transformou o Burgz numa referência artesanal. Cada etapa foi refinada ao longo de anos
               de chapa quente, blends testados e atenção obsessiva ao detalhe. Este é o passo a passo completo —
               sem atalhos, sem segredos guardados.
@@ -159,7 +159,7 @@ function Index() {
             </div>
           </div>
           <div className="pt-6 border-t border-border space-y-3 text-xs leading-relaxed">
-            <p>Ceara Lanches e Delivery | CNPJ: 57.596.077/0001-93</p>
+            <p>Espaco Palco Meu | CNPJ: 44.167.074/0001-92</p>
             <p className="max-w-3xl">
               Este site não faz parte do Google Inc. ou do Facebook Inc. Além disso, este site NÃO é endossado pelo
               Google ou Facebook de nenhuma maneira.
@@ -173,15 +173,15 @@ function Index() {
         <DialogContent className="max-w-2xl max-h-[85vh] overflow-y-auto">
           <DialogHeader>
             <DialogTitle>Termos de Uso</DialogTitle>
-            <DialogDescription>Burgz / Ceara Lanches e Delivery - CNPJ 57.596.077/0001-93</DialogDescription>
+            <DialogDescription>Burgz / Espaco Palco Meu - CNPJ 44.167.074/0001-92</DialogDescription>
           </DialogHeader>
           <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
             <p>Bem-vindo ao Burgz Blog. Ao acessar este site, você concorda com os termos descritos a seguir. Este é um blog informativo dedicado à gastronomia, com foco em receitas, técnicas culinárias e cultura do hambúrguer artesanal.</p>
-            <p><strong className="text-foreground">1. Natureza do conteúdo.</strong> Todo o material publicado tem caráter exclusivamente informativo e educativo. As receitas e técnicas refletem a experiência da Ceara Lanches e Delivery e não substituem orientação profissional de nutricionistas ou chefs.</p>
+            <p><strong className="text-foreground">1. Natureza do conteúdo.</strong> Todo o material publicado tem caráter exclusivamente informativo e educativo. As receitas e técnicas refletem a experiência da Espaco Palco Meu e não substituem orientação profissional de nutricionistas ou chefs.</p>
             <p><strong className="text-foreground">2. Propriedade intelectual.</strong> Textos, imagens e marca "Burgz" são protegidos por direitos autorais. Reprodução total ou parcial requer autorização prévia.</p>
             <p><strong className="text-foreground">3. Responsabilidade.</strong> O usuário é responsável pelo correto manuseio de ingredientes, equipamentos e procedimentos culinários descritos no site.</p>
             <p><strong className="text-foreground">4. Alterações.</strong> Estes termos podem ser atualizados a qualquer momento; recomendamos consulta periódica.</p>
-            <p>Em caso de dúvidas, entre em contato com a Ceara Lanches e Delivery pelo canal oficial do blog.</p>
+            <p>Em caso de dúvidas, entre em contato com a Espaco Palco Meu pelo canal oficial do blog.</p>
           </div>
           <DialogFooter>
             <Button onClick={() => setOpenTerms(false)}>Fechar</Button>
@@ -197,7 +197,7 @@ function Index() {
             <DialogDescription>Sua privacidade é prioridade no Burgz Blog.</DialogDescription>
           </DialogHeader>
           <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
-            <p>A Ceara Lanches e Delivery (CNPJ 57.596.077/0001-93) respeita a privacidade de todos os visitantes do Burgz Blog e está comprometida com a proteção dos seus dados pessoais, nos termos da Lei Geral de Proteção de Dados (LGPD).</p>
+            <p>A Espaco Palco Meu (CNPJ 44.167.074/0001-92) respeita a privacidade de todos os visitantes do Burgz Blog e está comprometida com a proteção dos seus dados pessoais, nos termos da Lei Geral de Proteção de Dados (LGPD).</p>
             <p><strong className="text-foreground">1. Coleta de dados.</strong> Coletamos apenas dados estritamente necessários para o funcionamento do site, como informações técnicas de navegação anonimizadas.</p>
             <p><strong className="text-foreground">2. Cookies.</strong> Utilizamos cookies padrão de segurança e desempenho para garantir uma experiência fluida e protegida. Não compartilhamos dados com terceiros para fins publicitários.</p>
             <p><strong className="text-foreground">3. Segurança.</strong> Adotamos medidas técnicas e organizacionais para proteger informações contra acessos não autorizados, perda ou alteração.</p>
