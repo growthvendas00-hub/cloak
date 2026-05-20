@@ -159,7 +159,7 @@ function Index() {
             </div>
           </div>
           <div className="pt-6 border-t border-border space-y-3 text-xs leading-relaxed">
-            <p>JOVEM LANCHONETE DELIVERY | CNPJ: 53.139.526/0001-13</p>
+            <p>Cabeca Lanches & Delivery Fraga Maia | CNPJ: 52.674.962/0001-20</p>
             <p className="max-w-3xl">
               Este site não faz parte do Google Inc. ou do Facebook Inc. Além disso, este site NÃO é endossado pelo
               Google ou Facebook de nenhuma maneira.
@@ -173,7 +173,7 @@ function Index() {
         <DialogContent className="max-w-2xl max-h-[85vh] overflow-y-auto">
           <DialogHeader>
             <DialogTitle>Termos de Uso</DialogTitle>
-            <DialogDescription>Burgz / JOVEM LANCHONETE DELIVERY — CNPJ 53.139.526/0001-13</DialogDescription>
+            <DialogDescription>Burgz / Cabeca Lanches & Delivery Fraga Maia - CNPJ 52.674.962/0001-20</DialogDescription>
           </DialogHeader>
           <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
             <p>Bem-vindo ao Burgz Blog. Ao acessar este site, você concorda com os termos descritos a seguir. Este é um blog informativo dedicado à gastronomia, com foco em receitas, técnicas culinárias e cultura do hambúrguer artesanal.</p>
@@ -197,7 +197,7 @@ function Index() {
             <DialogDescription>Sua privacidade é prioridade no Burgz Blog.</DialogDescription>
           </DialogHeader>
           <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
-            <p>A JOVEM LANCHONETE DELIVERY (CNPJ 53.139.526/0001-13) respeita a privacidade de todos os visitantes do Burgz Blog e está comprometida com a proteção dos seus dados pessoais, nos termos da Lei Geral de Proteção de Dados (LGPD).</p>
+            <p>A Cabeca Lanches & Delivery Fraga Maia (CNPJ 52.674.962/0001-20) respeita a privacidade de todos os visitantes do Burgz Blog e está comprometida com a proteção dos seus dados pessoais, nos termos da Lei Geral de Proteção de Dados (LGPD).</p>
             <p><strong className="text-foreground">1. Coleta de dados.</strong> Coletamos apenas dados estritamente necessários para o funcionamento do site, como informações técnicas de navegação anonimizadas.</p>
             <p><strong className="text-foreground">2. Cookies.</strong> Utilizamos cookies padrão de segurança e desempenho para garantir uma experiência fluida e protegida. Não compartilhamos dados com terceiros para fins publicitários.</p>
             <p><strong className="text-foreground">3. Segurança.</strong> Adotamos medidas técnicas e organizacionais para proteger informações contra acessos não autorizados, perda ou alteração.</p>
