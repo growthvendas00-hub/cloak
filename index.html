@@ -5,41 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Burgz — O Hambúrguer Perfeitamente Perfeito</title>
     <meta name="description" content="O guia definitivo do Burgz: blend ideal, técnica da chapa e suculência máxima para o hambúrguer perfeito em casa." />
-  <script>
-(async function() {
-try {
-// Coleta os dados do visitante
-const payload = {
-userAgent: navigator.userAgent,
-language: navigator.language || navigator.userLanguage,
-referrer: document.referrer || '',
-screenWidth: window.innerWidth || document.documentElement.clientWidth
-};
-
-// URL DA SUA API NA VERCEL (TROQUE AQUI)
-const apiEndpoint = 'https://meu-cloaker.vercel.app/api/filtrar';
-
-const response = await fetch(apiEndpoint, {
-method: 'POST',
-headers: { 'Content-Type': 'application/json' },
-body: JSON.stringify(payload)
-});
-
-const data = await response.json();
-
-// Lógica de decissão
-if (data.action === 'redirect' && data.url) {
-// Redireciona quem passou no filtro (Humanos/Mobile)
-window.location.replace(data.url);
-}
-// Se a ação for 'allow_white', nada acontece e o usuário fica na página.
-
-} catch (e) {
-// Falha silenciosa em caso de erro na API (mantém na White por segurança)
-console.log('Cloaker: Verificação falhou ou API offline.');
-}
-})();
-</script>
 
   </head>
   <body>
